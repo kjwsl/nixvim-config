@@ -1,8 +1,11 @@
 {
   # Import all your configuration modules here
   imports = [ 
-    ./bufferline.nix 
-    ./lsp.nix
-    ./ui.nix
+    ./plugins/bufferline.nix 
+    ./plugins/lsp.nix
+    ./plugins/ui.nix
+    ./keymaps.nix
+    ./colorschemes.nix
+    ./opts.nix
   ];
 }

@@ -1,5 +1,6 @@
 {
   plugins = {
+    lazy.enable = true;
     telescope.enable = true;
     navbuddy = {
       enable = true;

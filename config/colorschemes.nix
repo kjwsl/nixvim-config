@@ -1,5 +1,4 @@
 {
-  colorschemes = {
-    catppuccin = true;
-  };
+  colorschemes.catppuccin.enable = true;
+
 }
