@@ -7,6 +7,7 @@
       lsp.autoAttach = true;
     };
     surround.enable = true;
-
+    which-key.enable = true;
+    undotree.enable = true;
   };
 }

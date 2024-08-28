@@ -26,6 +26,14 @@
         desc = "Yank to Clipboard";
       };
     }
+    {
+        key = "j";
+      action = "gj";
+      options = {
+        silent = true;
+        desc = "Yank to Clipboard";
+      };
+    }
   ];
 
 }

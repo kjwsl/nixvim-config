@@ -9,5 +9,6 @@
     nvim-ufo.enable = true;
     sleuth.enable = true;
     rainbow-delimiters.enable = true;
+    lualine.enable = true;
   };
 }

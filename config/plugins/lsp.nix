@@ -8,36 +8,36 @@
           "<leader>j" = "goto_next";
           "<leader>k" = "goto_prev";
         };
-	lspBuf = {
-	  K = "hover";
-          gD = "references";
-          gd = "definition";
-          gi = "implementation";
-          gt = "type_definition";
-	};
-	extra = [
-         {
-           action = "<CMD>LspStop<Enter>";
-           key = "<leader>lx";
-         }
-         {
-           action = "<CMD>LspStart<Enter>";
-           key = "<leader>ls";
-         }
-         {
-           action = "<CMD>LspRestart<Enter>";
-           key = "<leader>lr";
-         }
-         {
-           action = {
-             __raw = "require('telescope.builtin').lsp_definitions()";
-           };
-           key = "gd";
-         }
-         {
-           action = "<CMD>Lspsaga hover_doc<Enter>";
-           key = "K";
-         }
+        lspBuf = {
+          K = "hover";
+              gD = "references";
+              gd = "definition";
+              gi = "implementation";
+              gt = "type_definition";
+        };
+        extra = [
+             {
+               action = "<CMD>LspStop<Enter>";
+               key = "<leader>lx";
+             }
+             {
+               action = "<CMD>LspStart<Enter>";
+               key = "<leader>ls";
+             }
+             {
+               action = "<CMD>LspRestart<Enter>";
+               key = "<leader>lr";
+             }
+             {
+               action = {
+                 __raw = "require('telescope.builtin').lsp_definitions()";
+               };
+               key = "gd";
+             }
+             {
+               action = "<CMD>Lspsaga hover_doc<Enter>";
+               key = "K";
+             }
         ];
       };
     };
